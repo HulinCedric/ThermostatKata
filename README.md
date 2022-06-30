@@ -53,9 +53,9 @@ The company wants to sell thermostat for industries, sensor is extremely accurat
 To display a temperature, the thermostat requires some measurement.
 A measurement is provided by the hardware layer in the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units) for temperature, the [Kelvin](https://en.wikipedia.org/wiki/Kelvin) (K).
 
-When a measurement is received, the thermostat displays it as it is.
+When a measurement is received, the thermostat display a temperature in Kelvin.
 
-For example, by default, the thermostat displays a measurement with a value of 20: "20 K".
+For example, with a measurement of 20, the thermostat display: "20 K".
 
 ### Step 3: Measurement accuracy
 
@@ -64,9 +64,9 @@ The accuracy of the sensor provides measurement with a lot of decimals.
 To improve readability, Kelvin should always be displayed rounded, without decimals.
 
 For example:
-- A measurement of 214.87123002 should be displayed "215 K".
-- A measurement of 100.131 should be displayed "100 K".
-- A measurement of 23.55 should be displayed "24 K".
+- For a measurement of 214.87123002 the thermostat should display "215 K".
+- For a measurement of 100.131 the thermostat should display "100 K".
+- For a measurement of 23.55 the thermostat should display "24 K".
 
 ### Step 3: Temperature
 
